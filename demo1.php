@@ -1,8 +1,11 @@
+<!DOCTYPE html>
+<html>
+<body>
+
 <?php
-/**
- * Created by PhpStorm.
- * User: de
- * Date: 2018/10/13
- * Time: 15:00
- */
-echo "我是第二个php";
+$color="red";
+echo "My car is " . $color . "<br>";
+?>
+
+</body>
+</html>
