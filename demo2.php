@@ -38,6 +38,16 @@ function myTest(){
 myTest();
 myTest();
 myTest();
+
+//$x = 3;
+//$y = 3.14;
+//$z = true;
+//var_dump($x);
+//var_dump($y);
+//var_dump($z);
+
+$car = array("BMW","V","a");
+var_dump($car);
 ?>
 
 
