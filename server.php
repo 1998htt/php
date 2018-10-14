@@ -5,7 +5,23 @@
  * Date: 2018/10/14
  * Time: 9:26
  */
-echo "登陆成功";
+//echo "登陆成功";
+$name = $_GET['name'];
+$p1 = $_GET['p1'];
+$p2 = $_GET['p2'];
+if($name == ''){
+    echo "nameErr";
+}elseif($p1 == ''){
+    echo "p1Err";
+}elseif($p2 == ''){
+    echo "p2Err";
+}elseif($p1 != $p2){
+    echo "error";
+}else{
+    echo "success";
+
+}
+
 //$username = $_POST['username'];
 //$pwd = $_POST['pwd'];
 //if($username == 'abc'&& $pwd =='123'){
